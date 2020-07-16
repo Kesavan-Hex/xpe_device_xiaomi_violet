@@ -99,3 +99,10 @@ ro.config.dha_lmk_scale=0.545 \
 ro.config.dha_th_rate=2.3 \
 ro.config.sdha_apps_bg_max=64 \
 ro.config.sdha_apps_bg_min=8
+
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
+# Boot
+sys.vendor.shutdown.waittime=500
+
