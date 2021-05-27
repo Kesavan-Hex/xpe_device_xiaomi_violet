@@ -20,6 +20,7 @@
         android:key="header"
         android:layout="@layout/header_animation" />
 
+
        <PreferenceCategory
         android:key="charging"
         android:title="@string/smart_charging_main_title">
