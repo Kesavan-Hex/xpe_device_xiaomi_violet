@@ -72,8 +72,7 @@ public class DeviceSettings extends PreferenceFragment implements
     private CustomSeekBarPreference mTorchBrightness;
     private SecureSettingSwitchPreference mEnableDirac;
     private Preference mClearSpeakerPref;
-    private SecureSettingListPreference mHeadsetType;
-    private SecureSettingListPreference mPreset;
+    private Preference mAmbientPref;
     private static Context mContext;
     private VibratorStrengthPreference mVibratorStrength;
 
