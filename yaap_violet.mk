@@ -8,12 +8,12 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common Spark-OS stuff.
-$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := komodo_violet
+PRODUCT_NAME := yaap_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro

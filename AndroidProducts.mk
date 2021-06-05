@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_violet.mk
+    $(LOCAL_DIR)/yaap_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_violet-userdebug \
-    komodo_violet-user \
-    komodo_violet-eng
+    yaap_violet-userdebug \
+    yaap_violet-user \
+    yaap_violet-eng
