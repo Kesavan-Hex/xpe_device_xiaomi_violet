@@ -24,8 +24,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     
 
 # Fingerprint
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys
-BUILD_DESCRIPTION := redfin-user 11 RQ2A.210505.003 7255357 release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
+BUILD_DESCRIPTION := redfin-user 11 RQ3A.210605.005 7349499 release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)" \
