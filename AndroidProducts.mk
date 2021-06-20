@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_violet.mk
+    $(LOCAL_DIR)/xperience_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_violet-userdebug \
-    yaap_violet-user \
-    yaap_violet-eng
+    xperience_violet-userdebug \
+    xperience_violet-user \
+    xperience_violet-eng
