@@ -64,6 +64,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
 TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 BOARD_RAMDISK_OFFSET := 0x01000000
 
 # Platform
